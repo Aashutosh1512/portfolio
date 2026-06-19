@@ -38,7 +38,7 @@ const SplittedTitle = ({ text }) => (
 export default function App() {
   const [dark, setDark] = useState(true);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const floatingDots = Array.from({ length: 14 });
+  
 
   // enable smooth scroll behavior via JS (also set in CSS)
   useEffect(() => {
