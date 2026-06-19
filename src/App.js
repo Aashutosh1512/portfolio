@@ -292,55 +292,86 @@ export default function App() {
           </p>
         </Section>
 
-        {/* EXPERIENCE */}
-        <Section id="experience">
-          <h2 className="section-title">Experience</h2>
+       {/* EXPERIENCE */}
+<Section id="experience">
+  <h2 className="section-title">Experience</h2>
 
-          <div className="card-grid">
-            <article className="card">
-              <h3>Software Engineer — Anko GCC (Kmart Australia)</h3>
-              <p className="muted">Sep 2024 – Present</p>
-              <ul>
-                <li>
-                  Contributed end-to-end from technical design to core
-                  implementation for the new Costing Integration, Lookup Item
-                  (Planning Attributes) integration, and hierarchy library data.
-                </li>
-                <li>
-                  Enabled seamless integration between the Costing module and
-                  PLM, as well as automated onboarding of new planning
-                  attributes in Centric.
-                </li>
-                <li>
-                  Worked on syncing critical production product specification
-                  library data between PLM and Product Service under a strict
-                  timeline.
-                </li>
-                <li>
-                  Designed AWS infrastructure and transformation of event data
-                  into standardized V3 payload structure for Product Service V3
-                  adapter layer.
-                </li>
-              </ul>
-            </article>
+  <div className="card-grid">
+    <article className="card">
+      <h3>Software Engineer — Anko GCC (Kmart Australia)</h3>
+      <p className="muted">September 2024 – Present</p>
 
-            <article className="card">
-              <h3>Software Engineer Intern — Anko GCC (Kmart Australia)</h3>
-              <p className="muted">Feb 2024 – Aug 2024</p>
-              <ul>
-                <li>
-                  Contributed to the Product Service Integration (PLMI) project,
-                  working on modules like Costing, Product Management, Library
-                  Data, Specifications, and Registration.
-                </li>
-                <li>
-                  Enabled seamless integration between internal systems,
-                  OpenCosting, and the Centric PLM platform.
-                </li>
-              </ul>
-            </article>
-          </div>
-        </Section>
+      <ul>
+        <li>
+          Integrated product lifecycle systems across Kmart, enabling reliable
+          data flow and interoperability.
+        </li>
+
+        <li>
+          Built fault-tolerant event-driven solutions with retry mechanisms,
+          exponential backoff, and automated recovery.
+        </li>
+
+        <li>
+          Developed a RAG-based incident management solution using Phi-3
+          open-source LLM.
+        </li>
+
+        <li>
+          Managed AWS infrastructure including ECS, Lambda, DynamoDB,
+          CloudWatch, and Systems Manager.
+        </li>
+
+        <li>
+          Built and maintained microservices using .NET Core and PostgreSQL,
+          monitored via Sumo Logic.
+        </li>
+
+        <li>
+          Automated CI/CD pipelines with GitHub Actions and implemented Redis
+          caching, reducing API costs by 36%.
+        </li>
+
+        <li>
+          Modernized enterprise applications by migrating from .NET Framework
+          to .NET Core and upgrading from .NET 5 to .NET 10.
+        </li>
+
+        <li>
+          Developed Angular applications with SignalR for real-time
+          synchronization.
+        </li>
+      </ul>
+    </article>
+
+    <article className="card">
+      <h3>Software Engineer Intern — Anko GCC (Kmart Australia)</h3>
+      <p className="muted">February 2024 – August 2024</p>
+
+      <ul>
+        <li>
+          Architected Kafka–RabbitMQ integration to distribute events across
+          topics, boosting throughput by 40%.
+        </li>
+
+        <li>
+          Migrated authentication from legacy sessions to Azure AD SSO,
+          strengthening security and simplifying access.
+        </li>
+
+        <li>
+          Built and maintained three microservices using .NET, Kafka, and
+          Redis, improving throughput by 20%.
+        </li>
+
+        <li>
+          Orchestrated CI/CD pipelines with GitHub Actions, achieving 80%
+          test coverage and reducing failed merges by 25%.
+        </li>
+      </ul>
+    </article>
+  </div>
+</Section>
 
         {/* PROJECTS */}
         <Section id="projects">
